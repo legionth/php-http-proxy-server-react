@@ -8,10 +8,10 @@
         }
     ],
     "autoload": {
-        "psr-4": { "Legionth\\React\\Http\\": "src/" }
+        "psr-4": { "Legionth\\React\\Http\\Proxy\\": "src/" }
     },
     "autoload-dev": {
-        "psr-4": { "Legionth\\Tests\\React\\Http\\": "tests/" }
+        "psr-4": { "Legionth\\Tests\\React\\Http\\Proxy": "tests/" }
     },
     "require": {
         "php": ">=5.3",
@@ -22,7 +22,8 @@
         "react/stream": "0.3.*|0.4.*",
         "react/promise": "~1.0|~2.0",
         "evenement/evenement": "~1.0|~2.0",
-        "ringcentral/psr7": "^1.2"
+        "ringcentral/psr7": "^1.2",
+        "legionth/http-server-react": "^0.5"
     },
     "require-dev": {
         "react/socket-client": "^0.5",
